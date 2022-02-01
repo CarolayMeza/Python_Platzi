@@ -1,0 +1,34 @@
+Objetos en python siempre son a tipos de datos 
+
+TIPOS DE DATOS
+
+- Numeros enteros
+- Numeros decimales 
+- Texto o String cadena de caracteres
+- Booleanos (Verdadedos o falsos)
+
+Puedo usar comillas simples o dobles para escribir dentro de ellos textos
+-------------------------------------------
+Que es concatenar?
+es la union de dos o mas cadenas de texto 
+>>> nombre = "carolay"
+>>> nombre
+'carolay'
+>>> nombre2 = 'steven'
+>>> print(nombre+nombre2)
+carolaysteven
+-------------------------------------------
+Podemos imprimir una variable las veces que yo quiera 
+>>> nombre * 3
+'carolaycarolaycarolay'
+Podemos concatenar dos variables separandolas con una , (coma)
+>>> nombre + "," + nombre2
+'carolay,steven'
+-------------------------------------------
+Numeros decimales siempre debemos usar . (punto)
+>>> numero_decimal = 2.5
+>>> print(numero_decimal)
+2.5
+-------------------------------------------
+
+

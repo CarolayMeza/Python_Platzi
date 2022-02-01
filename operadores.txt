@@ -1,0 +1,61 @@
+Tenemos operadores logicos y de comparacion
+
+OPERADORES LOGICOS
+
+1) creamos dos variables 
+>>> es_estudiante = True
+>>> trabaja = False
+
+2)Usamos el operador AND  para comparar pero si quiero que mi resultado sea True todas las variables deben ser True de lo contrario me retornara False 
+
+>>> es_estudiante and trabaja
+False
+
+3) Usamos el operador Or para decir comparar las variables y solo devolvera falso si una todas las variables son false 
+
+Estamos preguntando si este estudiante estudia o trabaja y como encontro una variable con valor true nos retorna TRUE
+>>> es_estudiante or trabaja
+True
+>>> 
+
+Cambiar el valor con el operador NOT 
+mi variable es_estudiante alojava el valor de True, al anteponer NOT a mi variables este nos da el valor contrario.
+>>> not es_estudiante
+False
+>>> not trabaja
+True
+>>> 
+
+(curso pensamiento logico)
+
+---------------------------------------------OPERADORES DE COMPARACION
+
+Tenemos dos variables con el mismo valor 
+al compararlas este me dira que es True es decir numero1 es igual igual a numero2
+
+>>> numero1 = 5
+>>> numero2 = 5
+>>> numero1 == numero2
+True
+>>> 
+
+Pero si tenemos valores diferentes en nuestras variables nos retornara False
+>>> numero3 = 4
+>>> numero1 == numero3
+False
+>>> 
+
+OPERADOR DISTINTO !
+>>> numero1 != numero3
+True
+>>> 
+Operador mayor o menor < > y <= =>
+>>> numero1 > numero2
+False
+>>> numero2 < numero3
+False
+>>> numero1 <= numero2
+True
+
+>>> numero2 >= numero3
+True

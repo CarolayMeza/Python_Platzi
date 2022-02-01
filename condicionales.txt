@@ -1,0 +1,33 @@
+CONDICIONALES
+
+IF: si
+ELIF en cambio sino
+ELSE: sino
+
+--------------------------------------------
+if (Si) Se usa para la condición principal.
+elif (Si no) En caso de que la condición principal o anterior no se cumpla, se puede usar para agregar otra condición.
+else (Sino) En caso de que la(s) condición(es) anterior(s) no se cumplan, se ejecuta como alternativa sin condicional.
+
+En lenguaje natural (Español)
+
+‘Si’ introduce una oración en la que se indica una condición real o hipotética que se ha de cumplir necesariamente para que sea cierto o se produzca lo que se expresa: Si corres, lo alcanzarás.
+
+‘Sino’ es una conjunción adversativa que se escribe en una sola palabra y se usa, principalmente, para contraponer un concepto a otro: No estudia, sino que trabaja.
+
+** ‘Si no’** introduce una oración condicional: Si no estudias, no aprobarás.
+
+
+-------------------------------------------
+#variable edad me esta guardano mi entrada por teclado con el input y 
+#con el int estamos convirtiendo esta variable a entero
+edad = int(input("Escribe tu edad: "))
+# si mi variable edad tiene alojado como valo un numero mayor a 18 
+if edad > 18:
+    # entonces imprima "usted es mayor de edad"
+    print("Usted es mayor de edad")
+# si no entonces imprima "usted es menor de edad"
+else:
+    print("Usted es menor de edad")
+------------------------------------
+Datos para comentar # para comentar todo usamos ctrl + / se comentara todo 

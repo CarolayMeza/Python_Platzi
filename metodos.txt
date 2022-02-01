@@ -1,0 +1,47 @@
+
+METODOS
+
+
+funcion para tipo de dato en particular es decir si tenemos 
+una variable y le ponemos . (punto) + () estamos ejecutando un metodo
+
+>>> nombre = input("cual es tu nombre")
+cual es tu nombrecarolay
+>>> nombre
+'carolay'
+>>> nombre.upper()
+'CAROLAY'
+>>> 
+
+-------------------------
+
+Metodo.capitalize()
+
+Me convierte lo que este en la variable solo la primera letra en mayuscula 
+>>> nombre.capitalize()
+'Carolay'
+
+Pero antes de hacer esto mis metodos pueden retornarme algo entonces 
+>>> nombre = nombre.capitalize()
+Le estoy diciento que en mi variable nombre es igual a nombre.capitalize()
+>>> nombre
+'Carolay'
+
+metodos para eliminar espacios .strip() elimina espacios que sobran al inicio o final
+metodo .lower() convertir todas las letras en mayuscula
+metodo .replace() lo podemos usar para cambiar letras o cosas en mi variable junto a los parametros
+
+>>>nombre.replace('a', 'e')
+>>>nombre
+'ceroley'
+
+INDICES se usas con corchetes [] 
+>>>nombre [0]
+'c'
+puedo abseder a los caracteres dentro de mi cadena de caracteres variables
+
+Metodo para contar Len(nombre)
+Lo usamos para conocer cuantos caracteres tiene nuestra variable con cadena de caracteres
+>>>len(nombre)
+7
+

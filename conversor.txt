@@ -1,0 +1,23 @@
+CONVERSOR DE MONEDA
+
+Utilizacion de la herramienta Visual Stdio Code 
+
+realizacion de cnversion de moneda de pesos colombianos a dolares y de dolares a pesos
+
+# Creando programa para convertir pesos colombianos en dolares
+# Variable con el nombre pesos y como es un valor tomado por consola ponemos el input mas el mensaje que queremos mostrar en consola
+
+pesos = input("Cuantos pesos colombianos tiene?")
+# una ves que tenemos este dato lo vamos a convertir de string a float
+pesos = float(pesos)
+# guardamos el valor del dolar en la variable valo_dolar
+valor_dolar = 4000
+# creams la variables dolares en la que guardaremos la operacion que se necesita para obtener el valor de ls dolares que tenemos
+dolares = pesos / valor_dolar
+# cambiar tipo de dato de la variable dolar ya que solo queremos que nos muestre 2 cifras despues del punto
+dolares = round(dolares, 2)
+# cambiamos tipo de dato de dolares para mostrarla por teclado
+dolares = str(dolares)
+print("Tienes $" + dolares + " dolares")
+
+

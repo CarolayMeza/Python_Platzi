@@ -1,0 +1,40 @@
+
+FUNCIONES 
+
+las funciones las usamos para dejar de repetir codigo una y otra vez.
+
+Y dentro de las funciones tenemos tambien parametros 	ue los usaamos para completar una parte del codigo especial 
+
+# crear una funcion con el menu de bienvenida
+def mensaje_bienvenida():
+    print("Hola")
+    print("Como estas ?")
+    print("Elejiste la opcion 1")
+    print("adios")
+
+# Crear funcion con un parametro
+
+
+def mensaje_bienvenida_parametro(mensaje):
+    print("Hola")
+    print("Como estas ?")
+    print(mensaje)
+    print("adios")
+
+# Acoplar estas funciones a mi programa
+
+
+Menu = """
+Bienvenido a este programa de funciones 
+Elije una opcion 1️⃣ - 2️⃣ - 3️⃣ :  """
+
+opcion = int(input(Menu))
+if opcion == 1:
+    mensaje_bienvenida_parametro("Elejiste la opcion 1️⃣ ")
+elif opcion == 2:
+    mensaje_bienvenida_parametro("Elejiste la opcion 2️⃣ ")
+elif opcion == 3:
+    mensaje_bienvenida_parametro("Elejiste la opcion 3️⃣")
+else:
+    print("Elige una opcion correcta")
+

@@ -1,0 +1,47 @@
+BREAK AND CONTINUE
+
+
+CONTINUE: la usamos para especificar que queremos continuar despues de cumplir un if 
+
+# definimos la funcion run
+def run():
+    # por contador en el rango de 1000
+    for contador in range(1000):
+        # si contador al dividirlo por 2 el resto de la division el resto es distinto a cero
+        if contador % 2 != 0:
+            # Continue, es decir que cada vez que se ejecutando el codigo y encuentre un numero que no es divisible por 2 y su reto sea cero
+            # entonces necesita continuar y no imprime aquellos numeros que no cumplan con esta regla impuesta en el if.
+  #es decir que apartir de continuo no se va a ejecutar y pasaran a la siguiente vuelta del ciclo
+            continue
+        print(contador)
+
+
+if __name__ == "__main__":
+    run()
+-------------------------------------------------------------------------------------------
+BREAK
+
+
+Lo usamos para romper ciclos despues de cumplirce una condicion 
+
+def run():
+   # Para la varibale i en el rango de 10000
+    for i in range(10000):
+        # imprima la variable i
+        print(i)
+        # si la variable 1 llega a ser igual a 5678
+        if i == 5678:
+            # entonces rompa el ciclo
+            break
+
+
+if __name__ == "__main__":
+    run()
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+
+
+Podemos guardar valores a variables pero tambien podemos obtener ese valor de consola con input
+
+>>> numero2 = input("Ingrese un numero: ")
+Ingrese un numero: 5
+
+Para cambiar mi tipo de dato de input ya que lo tomo como un string debo indicarlo de la siguiente manera 
+
+>>> numero1 = int(numero1)
+>>> numero2 = int(numero2)
+Asi cuando imprimamos numero2 con int cambie el tipo de dato que es 
+>>> numero1
+4
+>>> numero2
+5
+>>> numero1 + numero2
+9
+>>> 
+
+Para cnvertir numeros decimales en enteros usamos int 
+>>> numero_decimal = 4.5
+>>> int(4.5)
+4
+
+Para convertir datos de una variable numero_decial a una cadena de datos usamos str
+>>> str(numero_decimal)
+'4.5'
+
+
+
+

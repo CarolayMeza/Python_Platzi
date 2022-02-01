@@ -1,0 +1,8 @@
+CONVERSION MONEDA MAS CONDICIONALES 
+
+Crear programa que acepte convertir de dolares a pesos colombianos-pesos argentinos-pesos mexicanos.
+
+1- Crear un menu para que la persona elija su opcion de conversion 
+
+
+

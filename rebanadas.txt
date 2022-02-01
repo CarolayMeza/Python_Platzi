@@ -1,0 +1,46 @@
+REBANADAS - SLICES
+
+cortar las cadenas de caracteres
+
+Podemos partir las cadenas de string
+nuestra variables  
+
+en el siguiente ejemplo lo que etoy haciendo es sacar rebanadas de mis variable nombre 
+le estoy diciendo que quiero los elementos de la ubicacion 0 hasta la ubicacion 3 y 
+por ende este me va a retornar los caracteres que esten ocupando la posicion 1,2,3 'Car'
+>>> nombre[0:3]
+'Car'
+
+Otro ejemplo es que no necesito indicarle desde que ubicacion deseo que me traiga los caracteres
+simplemente inicio con los : (dos puntos) y el automaticamente conoce que estoy pidiendo traigame los carateres de esta variable nombres desde la posicion inicial hasta la posicion 3 
+>>> nombre[:3]
+'Car'
+
+de la misma manera pasa si le digo al programa que me traiga todos los caracteres de la variable nombres desde la ubicacion inicial 3 + : (dos pubtos) hasta la posicion final 
+>>> nombre[3:]
+'olay'
+
+Y asi puedo seguir haciendo ejemplos, iniciar desde el indice 1 hasta el indice 7
+>>> nombre[1:7]
+'arolay'
+
+Otro ejemplo es darle la indicacion desde que indice deseo iniciar mas que indice deseo llegar + la cantidad de pasos que quiero hacer para llegar a este proceso, es decir quiero la subcadena o la subrebanada que va del indice 1 al indice 7 (es decir pasa por toda la cadena pero en pasos de 2 en 2
+Recordamos que nuestra variable nombre esta alojando la cadena de caracteres 'Carolay'
+por ende este nos devolvera la subcadena o la rebanada de caracteres o slices 'aoa' 
+>>> nombre[1:7:2]
+'aoa'
+
+puedo usar estos slice para traer mi cadena completa de caracteres con decirle 
+>>> nombre[::]
+'Carolay'
+
+Voy a ir del indice 1 hasta el final en pasos de 3 en 3 
+>>> nombre[1::3]
+'al'
+CASO ESPECIAL puedo traer mi cadena de caracteres pero invertido, es decir ir desde el final hatsa el principio en pasos de 1 en 1  
+>>> nombre[::-1]
+'yaloraC'
+
+
+
+

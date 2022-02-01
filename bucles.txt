@@ -1,0 +1,105 @@
+BUCLES
+
+WHILE: 
+
+def run():
+    # Podemos definir constantes con tan solo ponerlas en mayusculas
+    # Pero son constantes si su valor no va a cambiar a lo largo del codigo
+    LIMITE = 1000000
+    # sera nuestra variable donde guardaremos nuesto numero a contador
+    contador = 0
+    # Creamos la variable con la operacion de de potencia
+    potencia_2 = 2 ** contador
+    # Mientras potencia de 2 sea menor a LIMITE entonces se ejecutara lo que siga
+    while potencia_2 < LIMITE:
+        # Entonces imprimimos los siguiente
+        print('2 elevado a ' + str(contador) +
+              ' es igual a: ' + str(potencia_2))
+        # Definimos que nuestro contrador aumente un numero cada vez que se ejecuta el bucle, para poder evitar un bucle infinito
+        contador += 1
+        # Definimos potencia de 2 de nuevo
+        potencia_2 = 2 ** contador
+
+
+# Entry Point
+if __name__ == '__main__':
+    run()
+-------------------------------------------------------------------------------------------------------
+CICLO FOR
+
+Usamos el ciclo for para ahorrar codigo y lo se lee de la siguiente manera 
+ 
+# Para contador en el rango que va del 0 al 1000 la variable contador en el ciclo va a tomar los valores del rango
+# Range la podemos pasar dos parametros un valor inicial en este caso 1 y un valor final
+# for contador in range(1, 1001):
+#     print(contador)
+
+RECORRER UN STRING CON FOR
+
+Tomamos una cadena de caracteres y la divide:
+----------------------------------------------
+CODIGO:
+def run():
+    nombre = input("escribe tu nombre: ")
+    for letra in nombre:
+        print(letra)
+
+
+if __name__ == "__main__":
+    run()
+---------------------------------------------
+RESULTADO: 
+python3 recorrer.py 
+escribe tu nombre: CAROLAY
+C
+A
+R
+O
+L
+A
+Y
+-----------------------------------------
+EJEMPLO 2 CODIGO
+def run():
+    # Tenemos una variable frase que guardara una cadena de caracteres ingresada por consola
+    frase = input("Escribe una frase: ")
+    # ciclo for para decir que por cada caracter en la variable frase
+    for caracter in frase:
+        # quiero que imprima cada caracter en mayuscula
+        print(caracter.upper())
+
+
+if __name__ == "__main__":
+    run()
+-------------------------------------------
+RESULTADO:
+
+$ python3 recorrer.py 
+Escribe una frase: te amo steven
+T
+E
+ 
+A
+M
+O
+ 
+S
+T
+E
+V
+E
+N
+------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+

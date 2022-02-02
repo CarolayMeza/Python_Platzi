@@ -1,0 +1,68 @@
+El Zen de Python
+
+1999:Tim
+
+Abrir terminal python3
+import this (Nos mostrara los 20 principios de software.
+
+Bello es mejor que feo.
+Explicito es mejor que implicito.
+Simple es mejor que complejo.
+Complejo es mejor que complicado.
+Plano es mejor que anidado.
+Espaciado es mejor que denso.
+La legibilidad es importante.
+Los casos especiales no son lo suficientemente especiales como para romper las reglas.
+Sin embargo la practicada le gana a la pureza.
+Los errores nunca deberían pasar silenciosamente.
+A menos que se silencien explicitamente.
+Frente a la ambigüedad, evitar la tentación de adivinar.
+Debería haber una, y preferiblemente solo una, manera obvia de hacerlo.
+A pesar de que esa manera no sea obvia a menos que seas holandés.
+Ahora es mejor que nunca 
+A pesar de que nunca es muchas veces mejor que *ahora* mismo.
+Si la implementación es difícil de explicar, es una mala idea.
+Si la implementación es fácil de explicar, puede que sea una buena idea.
+Los espacios de nombres son una gran idea 
+tengamos mas de esos!
+
+
+QUE ES LA DOCUMENTACION?
+Guia de como funciona
+PEP: Leer 8 
+
+Que es un entorno virtual?
+-Python aislado de un solo proyecto con propios modelos.
+
+Creación de entorno virtual
+En nuestra terminal creamos un carpeta llamada proyecto_ejemplo 
+Entramos al directorio y inicializamos el git con el comando git init
+Una vez inicializado llamaremos a python3 -m venv venv (de python3 voy a llamar el modulo entorno virtual al cual le pondré de nombre venv)
+
+Donde -m significa modulo vamos a llamar a un modulo 
+Donde venv = virtual envariment , entorno virtual 
+
+Se creara una carpeta que es un python para ese modulo, una vez que ya cargo 
+
+
+Ahora debemos escribir el comando para Mac
+Source vent/bin/activate
+Para sali de esta python 
+ Solo se escribe en la terminal Deactivate
+
+
+Para windows el comando es 
+.\venv\scripts\activate
+
+AHORA ESTOY USANDO UN PYTHON QUE SOLO FUNCIONA 
+EN ESTE ENTORNO.
+
+Modulo PIP: Package Installer for Python
+  Podemos instalar los pip en nuestro entorno de python 
+Asi que debemos ir. La terminal y ejecutar el comando de Source vent/bin/activates
+
+El comando pip freeze me permite mirar que modelos tenemos instalados en nuestro ambiente 
+
+COMO SE INSTALA PANDAS?
+Pip intall pandas: Modulo que nos permite   
+
